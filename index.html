@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Ballon d'or</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="image">
+			<div class="head">
+				<div class="logo">
+					<h1>Ballon d'or</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section>
+		<p class="synopsis">
+			The Ballon d'Or (French pronunciation: [balɔ̃ dɔʁ] "Golden Ball") is an annual football award presented by French news magazine France Football that is one of the oldest and generally regarded as the most prestigious individual award for football players.
+      <br>
+       <span id="source">~ Wikipedia</span>
+   </p>
+ </section>
+ <div class="hheader">
+   <h2>
+   Winners</h2>
+ </div>
+ <div class="input">
+ <input placeholder="Enter year" type="text" name="year" id="yearSearch">
+ <button id="search">Search</button>
+</div>
+ <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="stanleyMatthews.png" style="width:100%"></a>
+    <div class="info"><p>Name: Sir Stanley Matthews </p>
+    <p> Year: 1956</p>
+    <p> Club: Blackpool FC </p>
+     <p>Age: 41 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(0,0);" class="moreInfo">More info</button></a></div>
+  </div>
+
+<div class="mySlides fade">
+    <img src="alfredo.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Alfredo Di Stéfano </p>
+    <p> Year: 1957</p>
+    <p>Nationality: Spain</p>
+    <p> Club: Real Madrid </p>
+     <p>Age: 31 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(1,1);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="raymond.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Raymond Kopa </p>
+    <p> Year: 1958</p>
+    <p>Nationality: France</p>
+    <p> Club: Real Madrid </p>
+     <p>Age: 27 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(2,2);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="alfredo.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Alfredo Di Stéfano </p>
+    <p> Year: 1959</p>
+    <p>Nationality: Spain</p>
+    <p> Club: Real Madrid </p>
+     <p>Age: 33 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(3,3);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="luis.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Luis Suárez </p>
+    <p> Year: 1960</p>
+    <p>Nationality: Spain</p>
+    <p> Club: Barcelona </p>
+     <p>Age: 25 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(4,4);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="omar.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Omar Sívori </p>
+    <p> Year: 1961</p>
+     <p>Nationality: Italy</p>
+    <p> Club: Juventus </p>
+     <p>Age: 26</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(5,5);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="josef.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Josef Masopust  </p>
+    <p> Year: 1962</p>
+     <p>Nationality: Czechoslovakia</p>
+    <p> Club: Dukla Prague</p>
+     <p>Age: 31 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(6,6);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="lev.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Lev Yashin </p>
+    <p> Year: 1963</p>
+     <p>Nationality: Soviet Union</p>
+    <p> Club: Dynamo Moscow</p>
+     <p>Age: 34 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(7,7);" class="moreInfo">More info</button></a></div>
+  </div>
+
+<div class="mySlides fade">
+    <img src="denis.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Denis Law</p>
+    <p> Year: 1964</p>
+    <p>Nationality: Scotland</p>
+    <p> Club: Manchester United </p>
+     <p>Age: 24 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(8,8);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="eusebio.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Eusébio </p>
+    <p> Year: 1965</p>
+    <p>Nationality: Portugal</p>
+    <p> Club: Benfica </p>
+     <p>Age: 23 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(9,9);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="bobby.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Bobby Charlton </p>
+    <p> Year: 1966</p>
+     <p>Nationality: England</p>
+    <p> Club: Manchester United </p>
+     <p>Age: 29 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(10,10);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="florian.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Flórián Albert</p>
+    <p> Year: 1967</p>
+    <p>Nationality: Hungary</p>
+    <p> Club: Ferencv rosi TC </p>
+     <p>Age: 26 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(11,11);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="george.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: George Best </p>
+    <p> Year: 1968</p>
+    <p>Nationality: Northern Ireland</p>
+    <p> Club: Manchester United </p>
+     <p>Age: 22 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(12,12);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="gianni.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Gianni Rivera </p>
+    <p> Year: 1969</p>
+    <p>Nationality: Italy</p>
+    <p> Club: Milan</p>
+     <p>Age: 26 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(13,13);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="gerd.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Gerd Müller </p>
+    <p> Year: 1970</p>
+     <p>Nationality:  West Germany</p>
+    <p> Club: Bayern Munich </p>
+     <p>Age: 25 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(14,14);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="cruyff1.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Johan Cruyff </p>
+    <p> Year: 1971</p>
+    <p>Nationality: Netherlands</p>
+    <p> Club: Ajax </p>
+     <p>Age: 24 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(15,15);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="franz.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Franz Beckenbauer</p>
+    <p> Year: 1972</p>
+     <p>Nationality: West Germany</p>
+    <p> Club: Bayern Munich </p>
+     <p>Age: 27 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(16,16);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="cruyff2.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Johan Cruyff </p>
+    <p> Year: 1973</p>
+    <p>Nationality: Netherlands</p>
+    <p> Club: Barcelona </p>
+     <p>Age: 26 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(17,17);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="cruyff3.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Johan Cruyff </p>
+    <p> Year: 1974</p>
+     <p>Nationality: Netherlands</p>
+    <p> Club: Barcelona</p>
+     <p>Age: 27 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(18,18);" class="moreInfo">More info</button></a></div>
+  </div>
+
+ <div class="mySlides fade">
+    <img src="oleg.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Oleg Blokhin </p>
+    <p> Year: 1975</p>
+     <p>Nationality:  Soviet Union</p>
+    <p> Club: Dynamo Kyiv </p>
+     <p>Age: 23 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(19,19);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="franz2.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Franz Beckenbauer</p>
+    <p> Year: 1976</p>
+    <p>Nationality: West Germany</p>
+    <p> Club:   Bayern Munich </p>
+     <p>Age: 31 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(20,20);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="allan.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name:  Allan Simonsen </p>
+    <p> Year: 1977</p>
+    <p>Nationality: Denmark</p>
+    <p> Club: Borussia M”nchengladbach</p>
+     <p>Age: 25</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(21,21);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="kevin.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name:  Kevin Keegan </p>
+    <p> Year: 1978</p>
+    <p>Nationality: England</p>
+    <p> Club: Hamburg </p>
+     <p>Age: 27 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(22,22);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="kevin2.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name:  Kevin Keegan </p>
+    <p> Year: 1979</p>
+    <p>Nationality: England</p>
+    <p> Club:   Hamburg</p>
+     <p>Age: 28</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(23,23);" class="moreInfo">More info</button></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="karl.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name:  Karl-Heinz Rummenigge </p>
+    <p> Year: 1980</p>
+     <p>Nationality: West Germany </p>
+    <p> Club: Bayern Munich </p>
+     <p>Age: 25</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(24,24);" class="moreInfo">More info</button></a></div>
+  </div>
+
+ <div class="mySlides fade">
+    <img src="karl2.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name:  Karl-Heinz Rummenigge </p>
+    <p> Year: 1981</p>
+    <p>Nationality: West Germany</p>
+    <p> Club: Bayern Munich </p>
+     <p>Age: 26</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(25,25);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="paolo.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name:  Paolo Rossi</p>
+    <p> Year: 1982</p>
+    <p>Nationality: Italy</p>
+    <p> Club: Juventus </p>
+     <p>Age: 26</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(26,26);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="michel.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name:  Michel Platini </p>
+    <p> Year: 1983</p>
+    <p>Nationality: France</p>
+    <p> Club: Juventus </p>
+     <p>Age: 28 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(27,27);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="michel2.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Michel Platini </p>
+    <p> Year: 1984</p>
+    <p>Nationality: France</p>
+    <p> Club: Juventus </p>
+     <p>Age: 29 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(28,28);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="michel3.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Michel Platini </p>
+    <p> Year: 1985</p>
+    <p>Nationality: France</p>
+    <p> Club: Juventus </p>
+     <p>Age: 30 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(29,29);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="igor.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Igor Belanov </p>
+    <p> Year: 1986</p>
+    <p>Nationality: Soviet Union</p>
+    <p> Club: Dynamo Kyiv </p>
+     <p>Age: 26 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(30,30);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="ruud.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Ruud Gullit </p>
+    <p> Year: 1987</p>
+     <p>Nationality:  Netherlands</p>
+    <p> Club: Milan </p>
+     <p>Age: 25 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(31,31);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="marco.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Marco van Basten </p>
+    <p> Year: 1988</p>
+     <p>Nationality:  Netherlands</p>
+    <p> Club: Milan </p>
+     <p>Age: 23 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(32,32);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="marco2.png" style="width:100%"></a>
+    <div class="info"><p>Name: Marco van Basten </p>
+    <p> Year: 1989</p>
+     <p>Nationality:  Netherlands</p>
+    <p> Club: Milan </p>
+     <p>Age: 24 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(33,33);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="lothar.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Lothar Matthäus </p>
+    <p> Year: 1990</p>
+    <p>Nationality: Germany</p>
+    <p> Club: Internazionale </p>
+     <p>Age: 29 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(34,34);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="jean.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Jean-Pierre Papin </p>
+    <p> Year: 1991</p>
+     <p>Nationality: France</p>
+    <p> Club: Marseille </p>
+     <p>Age: 28 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(35,35);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="marco3.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Marco van Basten </p>
+    <p> Year: 1992</p>
+    <p>Nationality: Netherlands</p>
+    <p> Club: Milan </p>
+     <p>Age: 28 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(36,36);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="roberto.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Roberto Baggio </p>
+    <p> Year: 1993</p>
+    <p>Nationality: Italy</p>
+    <p> Club: Juventus </p>
+     <p>Age: 26</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(37,37);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="hristo.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Hristo Stoichkov </p>
+    <p> Year: 1994</p>
+    <p>Nationality: Bulgaria</p>
+    <p> Club: Barcelona </p>
+     <p>Age: 28</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(38,38);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="weah.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: George Weah </p>
+    <p> Year: 1995</p>
+    <p>Nationality: Liberia</p>
+    <p> Club: Milan </p>
+     <p>Age: 29</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(39,39);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="matthias.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Matthias Sammer </p>
+    <p> Year: 1996</p>
+     <p>Nationality: Germany</p>
+    <p> Club: Borussia Dortmund</p>
+     <p>Age: 29</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(40,40);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="ronal.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Ronaldo </p>
+    <p> Year: 1997</p>
+     <p>Nationality: Brazil</p>
+    <p> Club: Internazionale </p>
+     <p>Age: 21 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(41,41);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="zidane.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Zinedine Zidane </p>
+    <p> Year: 1998</p>
+    <p>Nationality: France</p>
+    <p> Club: Juventus</p>
+     <p>Age: 26 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(42,42);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="rivaldo.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Rivaldo</p>
+    <p> Year: 1999</p>
+    <p>Nationality: Brazil</p>
+    <p> Club: Barcelona</p>
+     <p>Age: 27</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(43,43);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="figo.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Luís Figo </p>
+    <p> Year: 2000</p>
+    <p>Nationality: Portugal</p>
+    <p> Club: Real Madrid </p>
+     <p>Age: 28</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(44,44);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="michael.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Michael Owen</p>
+    <p> Year: 2001</p>
+    <p>Nationality: England</p>
+    <p> Club: Liverpool </p>
+     <p>Age: 22</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(45,45);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="ronal2.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Ronaldo </p>
+    <p> Year: 2002</p>
+    <p>Nationality: Brazil</p>
+    <p> Club: Real Madrid</p>
+     <p>Age: 26</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(46,46);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="pavel.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Pavel Nedvěd </p>
+    <p> Year: 2003</p>
+    <p>Nationality: Czech Republic</p>
+    <p> Club: Juventus</p>
+     <p>Age: 31 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(47,47);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="andriy.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name:  Andriy Shevchenko</p>
+    <p> Year: 2004</p>
+    <p>Nationality: Ukrain</p>
+    <p> Club: Milan </p>
+     <p>Age: 28</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(48,48);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="ronaldinho.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Ronaldinho </p>
+    <p> Year: 2005</p>
+    <p>Nationality: Brazil</p>
+    <p> Club: Barcelona </p>
+     <p>Age: 25</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(49,49);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="fabio.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Fabio Cannavaro </p>
+    <p> Year: 2006</p>
+    <p>Nationality: Italy</p>
+    <p> Club: Real Madrid </p>
+     <p>Age: 33</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(50,50);" class="moreInfo">More info</button></a></div>
+  </div>
+
+<div class="mySlides fade">
+    <img src="kaka.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Kaká</p>
+    <p> Year: 2007</p>
+    <p>Nationality: Brazil</p>
+    <p> Club: Milan</p>
+     <p>Age: 25</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(51,51);" class="moreInfo">More info</button></a></div>
+  </div>
+
+<div class="mySlides fade">
+    <img src="cristi1.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Cristiano Ronaldo </p>
+    <p> Year: 2008</p>
+    <p>Nationality: Portugal</p>
+    <p> Club: Manchester United </p>
+     <p>Age: 23</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(52,52);" class="moreInfo">More info</button></a></div>
+  </div>
+
+ <div class="mySlides fade">
+    <img src="messi1.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Lionel Messi </p>
+    <p> Year: 2009</p>
+    <p>Nationality: Argentina</p>
+    <p> Club: Barcelona</p>
+     <p>Age: 22 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(53,53);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="messi2.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Lionel Messi </p>
+    <p> Year: 2010</p>
+    <p>Nationality: Argentina</p>
+    <p> Club: Barcelona</p>
+     <p>Age: 23 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(54,54);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="messi3.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Lionel Messi </p>
+    <p> Year: 2011</p>
+    <p>Nationality: Argentina</p>
+    <p> Club: Barcelona</p>
+     <p>Age: 24 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(55,55);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+   <img src="messi4.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Lionel Messi </p>
+    <p> Year: 2012</p>
+    <p>Nationality: Argentina</p>
+    <p> Club: Barcelona</p>
+     <p>Age: 25 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(56,56);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+   <img src="cristi2.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Cristiano Ronaldo </p>
+    <p> Year: 2013</p>
+    <p>Nationality: Portugal</p>
+    <p> Club: Real Madrid </p>
+     <p>Age: 28</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(57,57);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="cristi3.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Cristiano Ronaldo </p>
+    <p> Year: 2014</p>
+    <p>Nationality: Portugal</p>
+    <p> Club: Real Madrid</p>
+     <p>Age: 29</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(58,58);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="messi5.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Lionel Messi </p>
+    <p> Year: 2015</p>
+    <p>Nationality: Argentina</p>
+    <p> Club: Barcelona</p>
+     <p>Age: 28 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(59,59);" class="moreInfo">More info</button></a></div>
+  </div>
+   
+   <div class="mySlides fade">
+   <img src="cristi4.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Cristiano Ronaldo </p>
+    <p> Year: 2016</p>
+    <p>Nationality: Portugal</p>
+    <p> Club: Real Madrid</p>
+     <p>Age: 31</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(60,60);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="cristi5.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Cristiano Ronaldo </p>
+    <p> Year: 2017</p>
+    <p>Nationality: Portugal</p>
+    <p> Club: Real Madrid</p>
+     <p>Age: 32</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(61,61);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="modric.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Luka Modric</p>
+    <p> Year: 2018</p>
+    <p>Nationality: Croatia</p>
+    <p> Club: Real Madrid </p>
+     <p>Age: 33 </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(62,62);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+   <img src="messi6.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Lionel Messi </p>
+    <p> Year: 2019</p>
+    <p>Nationality: Argentina</p>
+    <p> Club: Barcelona</p>
+     <p>Age: 32</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(63,63);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+    <img src="header.jpg" style="width:100%"></a>
+    <div class="info"><p>NOT AWARDED </p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(64,64);" class="moreInfo">More info</button></a></div>
+  </div>
+
+   <div class="mySlides fade">
+   <img src="messi7.jpeg" style="width:100%"></a>
+    <div class="info"><p>Name: Lionel Messi </p>
+    <p> Year: 2021</p>
+    <p>Nationality: Argentina</p>
+    <p> Club: Paris Saint-Germain F.C.</p>
+     <p>Age: 34</p>
+    </div>
+    <div class="text"><a href="#bottom"><button onclick="infoOut(65,65);" class="moreInfo">More info</button></a></div>
+  </div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+</div>
+</div>
+ <div id="bottom"></div>
+ <footer>
+   <h6>Design @Ayblue004</h6>
+ </footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
