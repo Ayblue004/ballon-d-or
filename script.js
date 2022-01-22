@@ -1,5 +1,4 @@
-document.addEventListener('DOMContentLoaded', ()=>{
-    var yearSearch = document.getElementById("yearSearch");
+var yearSearch = document.getElementById("yearSearch");
 var search = document.getElementById("search");
 yearSearch.value="";
 var slideIndex = 1;
@@ -187,5 +186,3 @@ function showSlides(n) {
 }
     search.addEventListener("click", year);
     yearSearch.addEventListener("keypress", yearKey);
-
-})
